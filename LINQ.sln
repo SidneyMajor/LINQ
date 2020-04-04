@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ", "LINQ\LINQ.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryLinq", "LibraryLinq\LibraryLinq.csproj", "{52D14CC2-2993-4A6E-B5ED-17EF0444896E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqUI", "LinqUI\LinqUI.csproj", "{E828736E-E4D8-48B7-82DB-AC58CA0B941C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{52D14CC2-2993-4A6E-B5ED-17EF0444896E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52D14CC2-2993-4A6E-B5ED-17EF0444896E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52D14CC2-2993-4A6E-B5ED-17EF0444896E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E828736E-E4D8-48B7-82DB-AC58CA0B941C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E828736E-E4D8-48B7-82DB-AC58CA0B941C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E828736E-E4D8-48B7-82DB-AC58CA0B941C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E828736E-E4D8-48B7-82DB-AC58CA0B941C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
