@@ -49,6 +49,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DataClasses1.dbml</DependentUpon>
     </Compile>
+    <Compile Include="ManipulaDados.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Program2.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

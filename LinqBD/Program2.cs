@@ -8,7 +8,7 @@ namespace LinqBD
 {
     class Program2
     {
-        static void Main(string[] args)
+        static void Main3(string[] args)
         {
             DataClasses1DataContext dc = new DataClasses1DataContext();
 
@@ -48,9 +48,8 @@ namespace LinqBD
                 Console.WriteLine(c.Categoria + " (" + c.Contagem+")");               
             }
 
+            //junção entre tabelas            
             Console.WriteLine("-------------------Junção entre tabelas------------------------------");
-
-            //junção entre tabelas
 
             var outraLista = from Filme in dc.Filmes join Categoria in dc.Categorias
                              on Filme.Categoria equals Categoria.Sigla 
